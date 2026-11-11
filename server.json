@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.tia-forge/lad-render-cloud",
   "title": "LAD Render Cloud — SimaticML ladder diagrams over MCP",
-  "description": "Cloud renderer: turn a TIA Portal SimaticML block (FC/FB/OB, LAD or SCL) into a PNG ladder diagram over MCP, without installing TIA Portal.",
+  "description": "Cloud renderer: TIA Portal SimaticML (FC/FB/OB, LAD or SCL) into PNG ladder diagrams over MCP.",
   "version": "0.1.0",
   "websiteUrl": "https://tia.hubwiz.com/render",
   "remotes": [
