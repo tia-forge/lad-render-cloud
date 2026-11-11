@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tia-forge/lad-render-cloud",
+  "title": "LAD Render Cloud — SimaticML ladder diagrams over MCP",
+  "description": "Cloud renderer: turn a TIA Portal SimaticML block (FC/FB/OB, LAD or SCL) into a PNG ladder diagram over MCP, without installing TIA Portal.",
+  "version": "0.1.0",
+  "websiteUrl": "https://tia.hubwiz.com/render",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tia.hubwiz.com/render/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer API key from https://tia.hubwiz.com/render, format 'Bearer render_live_...'. WeChat login issues a free key with 100 renders; top-ups are 1000 renders for ¥9.90.",
+          "isRequired": true,
+          "isSecret": true,
+          "value": "Bearer {render_api_key}",
+          "variables": {
+            "render_api_key": {
+              "description": "render_live_... API key created in the web console (shown once).",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/tia-forge/lad-render-cloud",
+    "source": "github"
+  }
+}

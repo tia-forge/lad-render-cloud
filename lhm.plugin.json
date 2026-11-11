@@ -1,0 +1,35 @@
+{
+  "identifier": "lad-render-cloud",
+  "name": "LAD Render Cloud",
+  "version": "0.1.0",
+  "description": "Render TIA Portal SimaticML blocks into PNG ladder diagrams over MCP — no TIA Portal install needed.",
+  "author": "汇智网 (hubwiz)",
+  "authorUrl": "https://github.com/tia-forge",
+  "homepage": "https://github.com/tia-forge/lad-render-cloud",
+  "category": "developer",
+  "tags": [
+    "mcp",
+    "plc",
+    "siemens",
+    "tia-portal",
+    "ladder",
+    "simaticml",
+    "render",
+    "industrial-automation"
+  ],
+  "localizations": [
+    {
+      "locale": "zh-CN",
+      "name": "博途梯形图渲染 MCP",
+      "description": "把博途导出的 SimaticML（FC/FB/OB，LAD 或 SCL）在云端渲染成 PNG 梯形图：触点、线圈、分支汇合、网络标题与接口声明表都按工程布局绘制，支持单网络渲染与 1–3 倍缩放。",
+      "tags": [
+        "博途",
+        "PLC",
+        "梯形图",
+        "SimaticML",
+        "渲染",
+        "工业自动化"
+      ]
+    }
+  ]
+}
