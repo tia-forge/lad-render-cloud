@@ -13,7 +13,7 @@ TIA Portal installed.
 - **Endpoint**: `https://tia.hubwiz.com/render/mcp`
 - **Transport**: Streamable HTTP (stateless, POST JSON-RPC)
 - **Auth**: `Authorization: Bearer render_live_…` (the `X-API-Key` header is also accepted)
-- **Dashboard / API keys**: https://tia.hubwiz.com/render
+- **Dashboard / API keys**: https://tia.hubwiz.com/render?utm_source=github&utm_medium=readme&utm_campaign=lad-render-cloud
 - **Registry entry**: `io.github.tia-forge/lad-render-cloud` ([official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=lad-render-cloud))
 
 ## What it does
